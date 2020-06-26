@@ -4,6 +4,18 @@
 
 
 function generateMarkdown(data) {
+  let license;
+  switch (data.license) {
+    case "MIT":
+      license = "THIS IS MIT";
+      break;
+    case "BSA":
+      license = "this is bsa"
+      break;
+    default:
+      license = "This is MIT"
+      break;
+  }
   return `  
   # ${data.title}
 
@@ -32,12 +44,12 @@ ${data.usage}
 
 ## License 
 
-${data.license}
+${license}
 
 
 ## Contributing 
 
-${data.contributing}
+${data.contribution}
 
 
 ## Test 
@@ -50,6 +62,8 @@ ${data.test}
 ${data.email}
 
 ${data.github}
+
+https://github.com/${data.github}
 
 `;
 }

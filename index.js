@@ -3,7 +3,6 @@
 const fs = require('fs')
 const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown');
-const Choice = require('inquirer/lib/objects/choice');
 
 const questions = [
     {
@@ -79,10 +78,4 @@ function writeToFile(fileName, data) {
 }
 
 
-// // function to initialize program
-function init() {
 
-}
-
-// // function call to initialize program
-// init()
