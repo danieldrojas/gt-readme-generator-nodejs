@@ -5,6 +5,12 @@ const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions = [
+  
+    {
+        type: "input",
+        name: "name",
+        message: "What's your name?"
+    },
     {
         type: "input",
         name: "title",
@@ -12,43 +18,43 @@ const questions = [
     },
     {
         type: "input",
-        message: "Write a description:",
+        message: "Write DESCRIPTION guidelines for your project:",
         name: "description"
     },
     {
         type: "input",
-        message: "Installation for your project:",
+        message: "Write INSTALLATION guidelines for your project:",
         name: "installation"
     },
     {
         type: "input",
-        message: "Usage for your project:",
+        message: "Write USAGE guidelines for your project:",
         name: "usage"
     },
     {
         type: "list",
-        message: "Choose a license for your project:",
+        message: "Use keyboard arrows and hit enter to choose a license",
         name: "license",
-        choices: ["MIT", "BSD", "CDDL", "EPL"]
+        choices: ["MIT", "Apache"]
     },
     {
         type: "input",
-        message: "Contribution in your project",
+        message: "Write the names of the CONTRIBUTORS for your project",
         name: "contribution"
     },
     {
         type: "input",
-        message: "Test for your project:",
+        message: "Write TEST guidelines for your project:",
         name: "test"
     },
     {
         type: "input",
-        message: "Email: ",
+        message: "Write an email address to be display for QUESTIONS on your project: ",
         name: "email"
     },
     {
         type: "input",
-        message: "Github: ",
+        message: "Write your Github user's name (will automatically display your user's name and a link to your Github): ",
         name: "github"
     }
 

@@ -1,10 +1,9 @@
 # Title this is a guide 
 
 # Description
-In here were need to add descriptive information 
+A terminal command line application that generates readme upon user's input
 
-![Accessibility](https://img.shields.io/badge/HTML-Accessibility-red)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+![NPM](https://img.shields.io/badge/Js-NPM-red)
 
 ## Table of Contents 
 
@@ -16,7 +15,7 @@ In here were need to add descriptive information
 
 ## Installation
 
-Clone repository on local machine and run HTML file in browser.
+Clone repository on local machine make sure to have node.js preinstalled, run npm install and then run node index.js on terminal
 
 ## Usage 
 The present HTML file was refactor to implement   best practice of accessibility.
