@@ -90,7 +90,8 @@ ${data.test}
 
 ${data.email}
 
-${data.github}
+
+Github user name: ${data.github}
 
 https://github.com/${data.github}
 

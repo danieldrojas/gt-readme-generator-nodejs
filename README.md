@@ -1,7 +1,8 @@
 # Title this is a guide 
 
 # Description
-A terminal command line application that generates readme upon user's input
+
+A terminal command line application that generates readme.md files based on user's input
 
 ![NPM](https://img.shields.io/badge/Js-NPM-red)
 
@@ -15,17 +16,13 @@ A terminal command line application that generates readme upon user's input
 
 ## Installation
 
-Clone repository on local machine make sure to have node.js preinstalled, run npm install and then run node index.js on terminal
+Clone repository on local machine make sure to have node.js preinstalled, run npm install and then run node index.js on terminal, answer the questions and an sampleRead me will be generated.
 
 ## Usage 
-The present HTML file was refactor to implement   best practice of accessibility.
+Will easily generat md files for your projects
 
-[Deployed Portafolio Site](https://danieldrojas.github.io/gt-refactor-accessibility/)
 
-![Web App Upper ](./images/Background.png)
-![Web App Middle](./images/Optimization-Management.png)
-![Web App Lower ](./images/Media-Marketing.png)
-
+![README DEMO ](./utils/readme-demo.gif)
 ## Credits
 
 This was a single project completed as homework for Georgia Tech Coding Boot Camp /FullStack Flex Program.
