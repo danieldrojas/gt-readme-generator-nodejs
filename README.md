@@ -4,7 +4,7 @@
 
 A terminal command line application that generates readme.md files based on user's input
 
-![NPM](https://img.shields.io/badge/Js-NPM-red)
+![NPM](https://img.shields.io/badge/Nodejs-npm-red)
 
 ## Table of Contents 
 
