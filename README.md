@@ -1,4 +1,4 @@
-# Title this is a guide 
+# README GENERATOR 
 
 # Description
 
@@ -22,7 +22,7 @@ Clone repository on local machine make sure to have node.js preinstalled, run np
 Will easily generat md files for your projects
 
 
-![README DEMO ](./utils/readme-demo.gif)
+![README DEMO ](./utils/demo.gif)
 ## Credits
 
 This was a single project completed as homework for Georgia Tech Coding Boot Camp /FullStack Flex Program.
